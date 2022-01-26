@@ -1,0 +1,69 @@
+{
+    "class": "Generalization",
+    "kwargs": {
+        "variable_configs": {
+            "cam_pos_x": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            },
+            "cam_pos_y": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            },
+            "cam_scale": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            },
+            "brightness": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            },
+            "contrast": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            },
+            "saturation": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            },
+            "hue": {
+                "acts": {
+                    "name": "hk2_factorized_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "kwargs": {}
+            }
+        },
+        "averages": {
+            "cam_pos": ["cam_pos_x", "cam_pos_y"],
+            "color": ["brightness", "contrast", "saturation", "hue"],
+            "lighting": ["brightness", "contrast"]
+        },
+        "metric_types": ["ccg_r2", "parallelism"]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "dataset_configs": {
+        "rust_0": {
+            "base_dataset_name": "rust",
+            "seed": 0
+        }
+    },
+    "kwargs": {
+        "n_pcs": 300
+    },
+    "target_names": ["img_number"]
+}

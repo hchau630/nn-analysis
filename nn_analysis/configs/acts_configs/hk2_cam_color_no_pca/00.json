@@ -1,0 +1,13 @@
+{
+    "dataset_configs": {
+        "hk2_cam_color_0": {
+            "base_dataset_name": "hk2",
+            "transform_names": ["crop", "color"],
+            "seed": 0
+        }
+    },
+    "kwargs": {
+        "save_loc": "tmp_shared_path"
+    },
+    "target_names": ["obj_class", "cam_pos_x", "cam_pos_y", "cam_scale", "brightness", "contrast", "saturation", "hue"]
+}

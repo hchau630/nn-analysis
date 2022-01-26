@@ -1,0 +1,43 @@
+{
+    "class": "Factorization",
+    "kwargs": {
+        "variable_configs": {
+            "obj_motion": {
+                "acts": {
+                    "name": "pseudo_hvm_factorize_obj_motion",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "metric_types": ["ss_inv", "fact", "inv"],
+                "kwargs": {}
+            },
+            "background": {
+                "acts": {
+                    "name": "pseudo_hvm_factorize_background",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "metric_types": ["ss_inv", "fact", "inv"],
+                "kwargs": {}
+            },
+            "crop": {
+                "acts": {
+                    "name": "pseudo_hvm_factorize_crop",
+                    "version": 0
+                },
+                "n_pcs": 500,
+                "metric_types": ["ss_inv", "fact", "inv"],
+                "kwargs": {}
+            },
+            "color": {
+                "acts": {
+                    "name": "pseudo_hvm_factorize_color",
+                    "version": 0
+                },
+                "n_pcs": 500,
+                "metric_types": ["ss_inv", "fact", "inv"],
+                "kwargs": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "dataset_configs": {
+        "pseudo_hvm_factorize_color_0": {
+            "base_dataset_name": "pseudo_hvm",
+            "transform_names": ["color"],
+            "subset_indices": [[null], 0, 0],
+            "outer_dims": [10],
+            "seed": 0
+        }
+    },
+    "kwargs": {
+        "n_pcs": 500
+    },
+    "target_names": ["obj_number", "obj_motion", "background", "brightness", "contrast", "saturation", "hue"]
+}

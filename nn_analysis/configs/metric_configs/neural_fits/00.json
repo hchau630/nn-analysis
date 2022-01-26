@@ -1,0 +1,25 @@
+{
+    "class": "NeuralFits",
+    "kwargs": {
+        "dataset_configs": {
+            "hvm": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "regions": ["V4", "IT"],
+                "kwargs": {}
+            },
+            "rust": {
+                "acts": {
+                    "name": "rust",
+                    "version": 0
+                },
+                "n_pcs": 150,
+                "regions": ["V4", "IT"],
+                "kwargs": {}
+            }
+        }
+    }
+}

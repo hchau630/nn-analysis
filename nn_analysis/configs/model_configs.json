@@ -1,0 +1,49 @@
+{
+    "identity": {
+        "arch": "identity"
+    },
+    "moco_control": {
+        "arch": "resnet50",
+        "path": "checkpoints/moco/moco_v1_noflip",
+        "extract_method": "moco"
+    },
+    "moco_CD": {
+        "arch": "resnet50",
+        "path": "checkpoints/moco/moco_v1_cam_color_decode2_v2",
+        "extract_method": "moco"
+    },
+    "moco_CF": {
+        "arch": "resnet50",
+        "path": "checkpoints/moco/moco_v1_factorize2_v3",
+        "extract_method": "moco"
+    },
+    "moco_CDF": {
+        "arch": "resnet50",
+        "path": "checkpoints/moco/moco_v1_factorize_cam_color_decode2_v2",
+        "extract_method": "moco"
+    },
+    "barlow_control": {
+        "arch": "resnet50",
+        "path": "checkpoints/barlowtwins/original_v2"
+    },
+    "barlow_CD": {
+        "arch": "resnet50",
+        "path": "checkpoints/barlowtwins/decode_avgpool_v1"
+    },
+    "barlow_CF": {
+        "arch": "resnet50",
+        "path": "checkpoints/barlowtwins/factorize_avgpool_v1"
+    },
+    "barlow_CDF": {
+        "arch": "resnet50",
+        "path": "checkpoints/barlowtwins/factorize_avgpool_decode_avgpool_v3"
+    },
+    "barlow_P": {
+        "arch": "resnet50",
+        "path": "checkpoints/barlowtwins/equivariant_all_bn_v2"
+    },
+    "barlow_PF": {
+        "arch": "resnet50",
+        "path": "checkpoints/barlowtwins/factorize_avgpool_equivariant_all_bn_2_v1"
+    }
+}

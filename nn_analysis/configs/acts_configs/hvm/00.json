@@ -1,0 +1,12 @@
+{
+    "dataset_configs": {
+        "hvm_0": {
+            "base_dataset_name": "hvm",
+            "seed": 0
+        }
+    },
+    "kwargs": {
+        "n_pcs": 300
+    },
+    "target_names": ["obj_category", "obj_class", "obj_pos_x", "obj_pos_y", "obj_scale", "obj_pose_x", "obj_pose_y", "obj_pose_z"]
+}

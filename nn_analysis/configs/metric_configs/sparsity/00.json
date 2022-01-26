@@ -1,0 +1,11 @@
+{
+    "class": "Sparsity",
+    "kwargs": {
+        "acts": {
+            "name": "hk2_cam_color_no_pca",
+            "version": 0
+        },
+        "metric_types": ["population", "trial"],
+        "kwargs": {}
+    }
+}

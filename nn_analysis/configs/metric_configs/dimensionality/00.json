@@ -1,0 +1,9 @@
+{
+    "class": "Dimensionality",
+    "kwargs": {
+        "acts": {
+            "name": "hk2_cam_color",
+            "version": 0
+        }
+    }
+}

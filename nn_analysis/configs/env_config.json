@@ -1,0 +1,15 @@
+{
+    "imagenet_path": "/home/hc3190/datasets/imagenet",
+    "neural_data_path": "/home/hc3190/datasets/neural_data",
+    "pseudohvm_path": "/axsys/issa/shared",
+    "hvm_path": "/home/hc3190/datasets/HVM",
+    "hk2_path": "/home/hc3190/datasets/HK2",
+    "rust_path": "/home/hc3190/datasets/rust",
+    "mkturk_path": "/home/hc3190/datasets/mkturk",
+    "model_base_path": "/home/hc3190/models",
+    "tmp_path": "/home/hc3190/issa/disentangle/nn_analysis/tmp",
+    "tmp_shared_path": "/home/hc3190/issa/disentangle/nn_analysis/tmp",
+    "save_acts_path": "/home/hc3190/issa/disentangle/nn_analysis/data/activations",
+    "save_results_path": "/home/hc3190/issa/disentangle/nn_analysis/data/results",
+    "script_tmp_path": "/home/hc3190/issa/disentangle/nn_analysis/bin/tmp"
+}

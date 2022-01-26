@@ -1,0 +1,32 @@
+{
+    "class": "RDM",
+    "kwargs": {
+        "dataset_configs": {
+            "hvm": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "n_images": 500,
+                "regions": ["V4", "IT"]
+            },
+            "rust": {
+                "acts": {
+                    "name": "rust",
+                    "version": 0
+                },
+                "n_pcs": 150,
+                "n_images": 500,
+                "regions": ["V4", "IT"]
+            }
+        },
+        "rdm_kwargs": {
+            "metric": "pearson"
+        },
+        "rdm_neural_fits_kwargs": {
+            "n_splits": 3,
+            "metric": "spearman"
+        }
+    }
+}

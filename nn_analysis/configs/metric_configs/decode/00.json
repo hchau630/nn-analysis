@@ -1,0 +1,140 @@
+{
+    "class": "Decoding",
+    "kwargs": {     
+        "variable_configs": {
+            "obj_class": {
+                "acts": {
+                    "name": "hk2_cam_color",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "classification",
+                "kwargs": {}
+            },
+            "cam_pos_x": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "cam_pos_y": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "cam_scale": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "brightness": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "contrast": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "saturation": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "hue": {
+                "acts": {
+                    "name": "hk2_cam_color_diff",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "obj_pos_x": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "obj_pos_y": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "obj_scale": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "obj_pose_x": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            },
+            "obj_pose_y": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {} 
+            },
+            "obj_pose_z": {
+                "acts": {
+                    "name": "hvm",
+                    "version": 0
+                },
+                "n_pcs": 300,
+                "method": "regression",
+                "kwargs": {}
+            }
+        },
+        "averages": {
+            "cam_pos": ["cam_pos_x", "cam_pos_y"],
+            "obj_pos": ["obj_pos_x", "obj_pos_y"],
+            "color": ["brightness", "contrast", "saturation", "hue"],
+            "lighting": ["brightness", "contrast"],
+            "obj_pose": ["obj_pose_x", "obj_pose_y", "obj_pose_z"]
+        }
+    }
+}

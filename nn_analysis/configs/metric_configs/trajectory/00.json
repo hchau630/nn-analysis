@@ -1,0 +1,115 @@
+{
+    "class": "Trajectory",
+    "kwargs": {
+        "variable_configs": {
+            "x_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "y_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "z_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "y_focus_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "z_focus_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_cam_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "yz_cam_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_0": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_1": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_2": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_3": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_4": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_5": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_6": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_focus_pan_7": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "x_camel_rotate": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            },
+            "y_camel_rotate": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                }
+            }
+        }
+    }
+}

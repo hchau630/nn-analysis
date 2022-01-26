@@ -1,0 +1,13 @@
+{
+    "dataset_configs": {
+        "pseudo_hvm_factorize_obj_motion_0": {
+            "base_dataset_name": "pseudo_hvm",
+            "subset_indices": [[null], [null], 0],
+            "seed": 0
+        }
+    },
+    "kwargs": {
+        "n_pcs": 300
+    },
+    "target_names": ["obj_number", "obj_motion", "background"]
+}

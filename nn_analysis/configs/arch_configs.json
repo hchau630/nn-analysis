@@ -1,0 +1,696 @@
+{
+    "identity": {
+        "layer_names": [
+            "pixels"
+        ]
+    },
+    "resnet18": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer2.0",
+            "layer2.1",
+            "layer3.0",
+            "layer3.1",
+            "layer4.0",
+            "layer4.1"
+        ]
+    },
+    "resnet34": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2"
+        ]
+    },
+    "resnet50": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet50_simclr": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet50_1c": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet50_1x": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet50_2x": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet50_1x_simclr": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet50_2x_simclr": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet101": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.2",
+            "layer3.4",
+            "layer3.6",
+            "layer3.8",
+            "layer3.10",
+            "layer3.12",
+            "layer3.14",
+            "layer3.16",
+            "layer3.18",
+            "layer3.20",
+            "layer3.22",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnet152_2x": {
+        "layer_names": [
+            "layer1.0",
+            "layer2.0",
+            "layer2.3",
+            "layer2.6",
+            "layer3.0",
+            "layer3.3",
+            "layer3.6",
+            "layer3.9",
+            "layer3.12",
+            "layer3.15",
+            "layer3.18",
+            "layer3.21",
+            "layer3.24",
+            "layer3.27",
+            "layer3.30",
+            "layer3.33",
+            "layer4.0",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "alexnet": {
+        "layer_names": [
+            "features.2",
+            "features.5",
+            "features.7",
+            "features.9",
+            "features.12",
+            "avgpool",
+            "classifier.2",
+            "classifier.5"
+        ]
+    },
+    "vgg11": {
+        "layer_names": [
+            "features.2",
+            "features.5",
+            "features.7",
+            "features.10",
+            "features.12",
+            "features.15",
+            "features.17",
+            "features.20",
+            "avgpool",
+            "classifier.1",
+            "classifier.4"
+        ]
+    },
+    "vgg13": {
+        "layer_names": [
+            "features.1",
+            "features.4",
+            "features.6",
+            "features.9",
+            "features.11",
+            "features.14",
+            "features.16",
+            "features.19",
+            "features.21",
+            "features.24",
+            "avgpool",
+            "classifier.1",
+            "classifier.4"
+        ]
+    },
+    "vgg16": {
+        "layer_names": [
+            "features.1",
+            "features.4",
+            "features.6",
+            "features.9",
+            "features.11",
+            "features.13",
+            "features.16",
+            "features.18",
+            "features.20",
+            "features.23",
+            "features.25",
+            "features.27",
+            "features.30",
+            "avgpool",
+            "classifier.1",
+            "classifier.4"
+        ]
+    },
+    "vgg19": {
+        "layer_names": [
+            "features.1",
+            "features.4",
+            "features.6",
+            "features.9",
+            "features.11",
+            "features.13",
+            "features.15",
+            "features.18",
+            "features.20",
+            "features.22",
+            "features.24",
+            "features.27",
+            "features.29",
+            "features.31",
+            "features.33",
+            "features.36",
+            "avgpool",
+            "classifier.1",
+            "classifier.4"
+        ]
+    },
+    "squeezenet1_0": {
+        "layer_names": [
+            "features.2",
+            "features.3",
+            "features.4",
+            "features.5",
+            "features.7",
+            "features.8",
+            "features.9",
+            "features.10",
+            "features.12",
+            "classifier.1"
+        ]
+    },
+    "squeezenet1_1": {
+        "layer_names": [
+            "features.2",
+            "features.3",
+            "features.4",
+            "features.6",
+            "features.7",
+            "features.9",
+            "features.10",
+            "features.11",
+            "features.12",
+            "classifier.1"
+        ]
+    },
+    "densenet121": {
+        "layer_names": [
+            "features.pool0",
+            "features.denseblock1.denselayer3",
+            "features.denseblock1.denselayer6",
+            "features.transition1",
+            "features.denseblock2.denselayer3",
+            "features.denseblock2.denselayer6",
+            "features.denseblock2.denselayer9",
+            "features.denseblock2.denselayer12",
+            "features.transition2",
+            "features.denseblock3.denselayer3",
+            "features.denseblock3.denselayer6",
+            "features.denseblock3.denselayer9",
+            "features.denseblock3.denselayer12",
+            "features.denseblock3.denselayer15",
+            "features.denseblock3.denselayer18",
+            "features.denseblock3.denselayer21",
+            "features.denseblock3.denselayer24",
+            "features.transition3",
+            "features.denseblock4.denselayer3",
+            "features.denseblock4.denselayer6",
+            "features.denseblock4.denselayer9",
+            "features.denseblock4.denselayer12",
+            "features.denseblock4.denselayer15",
+            "features.norm5"
+        ]
+    },
+    "densenet161": {
+        "layer_names": [
+            "features.pool0",
+            "features.denseblock1.denselayer4",
+            "features.transition1",
+            "features.denseblock2.denselayer4",
+            "features.denseblock2.denselayer8",
+            "features.denseblock2.denselayer12",
+            "features.transition2",
+            "features.denseblock3.denselayer4",
+            "features.denseblock3.denselayer8",
+            "features.denseblock3.denselayer12",
+            "features.denseblock3.denselayer16",
+            "features.denseblock3.denselayer20",
+            "features.denseblock3.denselayer24",
+            "features.denseblock3.denselayer28",
+            "features.denseblock3.denselayer32",
+            "features.denseblock3.denselayer36",
+            "features.transition3",
+            "features.denseblock4.denselayer4",
+            "features.denseblock4.denselayer8",
+            "features.denseblock4.denselayer12",
+            "features.denseblock4.denselayer16",
+            "features.denseblock4.denselayer20",
+            "features.denseblock4.denselayer24",
+            "features.norm5"
+        ]
+    },
+    "googlenet": {
+        "layer_names": [
+            "maxpool1",
+            "maxpool2",
+            "inception3a",
+            "inception3b",
+            "maxpool3",
+            "inception4a",
+            "inception4b",
+            "inception4c",
+            "inception4d",
+            "inception4e",
+            "maxpool4",
+            "inception5a",
+            "inception5b"
+        ]
+    },
+    "shufflenet_v2_x0_5": {
+        "layer_names": [
+            "maxpool",
+            "stage2.0",
+            "stage2.1",
+            "stage2.2",
+            "stage2.3",
+            "stage3.0",
+            "stage3.1",
+            "stage3.2",
+            "stage3.3",
+            "stage3.4",
+            "stage3.5",
+            "stage3.6",
+            "stage3.7",
+            "stage4.0",
+            "stage4.1",
+            "stage4.2",
+            "stage4.3",
+            "conv5"
+        ]
+    },
+    "shufflenet_v2_x1_0": {
+        "layer_names": [
+            "maxpool",
+            "stage2.0",
+            "stage2.1",
+            "stage2.2",
+            "stage2.3",
+            "stage3.0",
+            "stage3.1",
+            "stage3.2",
+            "stage3.3",
+            "stage3.4",
+            "stage3.5",
+            "stage3.6",
+            "stage3.7",
+            "stage4.0",
+            "stage4.1",
+            "stage4.2",
+            "stage4.3",
+            "conv5"
+        ]
+    },
+    "mobilenet_v2": {
+        "layer_names": [
+            "features.0",
+            "features.1",
+            "features.2",
+            "features.3",
+            "features.4",
+            "features.5",
+            "features.6",
+            "features.7",
+            "features.8",
+            "features.9",
+            "features.10",
+            "features.11",
+            "features.12",
+            "features.13",
+            "features.14",
+            "features.15",
+            "features.16",
+            "features.17",
+            "features.18"
+        ]
+    },
+    "mobilenet_v3_small": {
+        "layer_names": [
+            "features.0",
+            "features.1",
+            "features.2",
+            "features.3",
+            "features.4",
+            "features.5",
+            "features.6",
+            "features.7",
+            "features.8",
+            "features.9",
+            "features.10",
+            "features.11",
+            "features.12"
+        ]
+    },
+    "mobilenet_v3_large": {
+        "layer_names": [
+            "features.0",
+            "features.1",
+            "features.2",
+            "features.3",
+            "features.4",
+            "features.5",
+            "features.6",
+            "features.7",
+            "features.8",
+            "features.9",
+            "features.10",
+            "features.11",
+            "features.12",
+            "features.13",
+            "features.14",
+            "features.15",
+            "features.16"
+        ]
+    },
+    "resnext50_32x4d": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnext101_32x8d": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.2",
+            "layer3.4",
+            "layer3.6",
+            "layer3.8",
+            "layer3.10",
+            "layer3.12",
+            "layer3.14",
+            "layer3.16",
+            "layer3.18",
+            "layer3.20",
+            "layer3.22",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "resnext152_32x8d": {
+        "layer_names": [
+            "layer1.0",
+            "layer2.0",
+            "layer2.3",
+            "layer2.6",
+            "layer3.0",
+            "layer3.3",
+            "layer3.6",
+            "layer3.9",
+            "layer3.12",
+            "layer3.15",
+            "layer3.18",
+            "layer3.21",
+            "layer3.24",
+            "layer3.27",
+            "layer3.30",
+            "layer3.33",
+            "layer4.0",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "wide_resnet50_2": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.1",
+            "layer3.2",
+            "layer3.3",
+            "layer3.4",
+            "layer3.5",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "wide_resnet101_2": {
+        "layer_names": [
+            "layer1.0",
+            "layer1.1",
+            "layer1.2",
+            "layer2.0",
+            "layer2.1",
+            "layer2.2",
+            "layer2.3",
+            "layer3.0",
+            "layer3.2",
+            "layer3.4",
+            "layer3.6",
+            "layer3.8",
+            "layer3.10",
+            "layer3.12",
+            "layer3.14",
+            "layer3.16",
+            "layer3.18",
+            "layer3.20",
+            "layer3.22",
+            "layer4.0",
+            "layer4.1",
+            "layer4.2",
+            "avgpool"
+        ]
+    },
+    "mnasnet0_5": {
+        "layer_names": [
+            "layers.2",
+            "layers.5",
+            "layers.7",
+            "layers.8.0",
+            "layers.8.1",
+            "layers.8.2",
+            "layers.9.0",
+            "layers.9.1",
+            "layers.9.2",
+            "layers.10.0",
+            "layers.10.1",
+            "layers.10.2",
+            "layers.11.0",
+            "layers.11.1",
+            "layers.12.0",
+            "layers.12.1",
+            "layers.12.2",
+            "layers.12.3",
+            "layers.13.0",
+            "layers.16"
+        ]
+    },
+    "mnasnet1_0": {
+        "layer_names": [
+            "layers.2",
+            "layers.5",
+            "layers.7",
+            "layers.8.0",
+            "layers.8.1",
+            "layers.8.2",
+            "layers.9.0",
+            "layers.9.1",
+            "layers.9.2",
+            "layers.10.0",
+            "layers.10.1",
+            "layers.10.2",
+            "layers.11.0",
+            "layers.11.1",
+            "layers.12.0",
+            "layers.12.1",
+            "layers.12.2",
+            "layers.12.3",
+            "layers.13.0",
+            "layers.16"
+        ]
+    }
+}
