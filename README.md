@@ -5,7 +5,9 @@ This is a python package for performing large-scale analysis of neural network m
 To install, first start up a new environment (conda or pip) and install python 3.9 (and jupyterlab if that is part of your workflow). Python 3.7 and 3.8 should also work, although you will have to change the pytorch and torchvision package requirements in requirements.txt such that the 'cp39' is changed to 'cp37' or 'cp38' depending on your python version.
 
 Next, clone the repository. Inside the project directory (i.e. inside your_path/nn-analysis), do
-  pip install -r requirements.txt -e .
+
+    pip install -r requirements.txt -e .
+    
 The -e option means you are installing the package in editable mode, so that you can import the package nn_analysis from anywhere.
 
 ## Usage
