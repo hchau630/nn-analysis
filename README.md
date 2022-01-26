@@ -2,7 +2,7 @@
 This is a python package for performing large-scale analysis of neural network models on GPU clusters. Currently it contains code for my own personal project, but I intend to decouple my personal code from the package in the future, which would make it easier for others to use it.
 
 ## Install
-To install, first start up a new environment (conda or pip) and install python 3.9 (and jupyterlab if that is part of your workflow). Python 3.7 and 3.8 should also work, although you will have to change the pytorch and torchvision package requirements in requirements.txt such that the 'cp39' is changed to 'cp37' or 'cp38' depending on your python version.
+To install, first start up a new environment (conda or pip) and install python 3.7+ (and jupyterlab if that is part of your workflow).
 
 Next, clone the repository. Inside the project directory (i.e. inside your_path/nn-analysis), do
 

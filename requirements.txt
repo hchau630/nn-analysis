@@ -3,7 +3,7 @@ matplotlib
 scipy
 h5py
 scikit-learn
-# torch 1.10.1 with cuda 11.3 for Python 3.9, this cuda version is needed for running on the A40 GPUs
-https://download.pytorch.org/whl/cu113/torch-1.10.1%2Bcu113-cp39-cp39-linux_x86_64.whl
-# torchvision 0.11.2 with cuda 11.3 for Python 3.9, this cuda version is needed for running on the A40 GPUs
-https://download.pytorch.org/whl/cu113/torchvision-0.11.2%2Bcu113-cp39-cp39-linux_x86_64.whl
+torch==1.10.1+cu113
+torchvision==0.11.2+cu113
+-f https://download.pytorch.org/whl/cu113/torch_stable.html
+-e .
