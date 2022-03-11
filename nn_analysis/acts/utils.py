@@ -12,6 +12,7 @@ acts_configs = utils.load_config(ACTS_CONFIGS_PATH)
 DEFAULT_SAVE_LOC = 'save_acts_path' # If you change this, make sure to also move the acts you previously saved at this location to the location that you change to.
 
 def _get_data_path(model_name, epoch, acts_name, version, layer_name=None, data_type='y'):
+    # print(acts_configs[acts_name])
     if "save_loc" in acts_configs[acts_name][f"{version:02d}"]["kwargs"]:
         load_loc = acts_configs[acts_name][f"{version:02d}"]["kwargs"]["save_loc"]
     else:

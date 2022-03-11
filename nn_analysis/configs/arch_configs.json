@@ -4,6 +4,52 @@
             "pixels"
         ]
     },
+    "barlowtwins": {
+        "layer_names": [
+            "backbone.layer1.0",
+            "backbone.layer1.1",
+            "backbone.layer1.2",
+            "backbone.layer2.0",
+            "backbone.layer2.1",
+            "backbone.layer2.2",
+            "backbone.layer2.3",
+            "backbone.layer3.0",
+            "backbone.layer3.1",
+            "backbone.layer3.2",
+            "backbone.layer3.3",
+            "backbone.layer3.4",
+            "backbone.layer3.5",
+            "backbone.layer4.0",
+            "backbone.layer4.1",
+            "backbone.layer4.2",
+            "backbone.avgpool",
+            "projector",
+            "bn"
+        ]
+    },
+    "equivariant_all_bn": {
+        "layer_names": [
+            "backbone.layer1.0",
+            "backbone.layer1.1",
+            "backbone.layer1.2",
+            "backbone.layer2.0",
+            "backbone.layer2.1",
+            "backbone.layer2.2",
+            "backbone.layer2.3",
+            "backbone.layer3.0",
+            "backbone.layer3.1",
+            "backbone.layer3.2",
+            "backbone.layer3.3",
+            "backbone.layer3.4",
+            "backbone.layer3.5",
+            "backbone.layer4.0",
+            "backbone.layer4.1",
+            "backbone.layer4.2",
+            "backbone.avgpool",
+            "projector",
+            "bn"
+        ]
+    },
     "resnet18": {
         "layer_names": [
             "layer1.0",

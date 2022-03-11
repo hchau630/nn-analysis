@@ -18,14 +18,14 @@ class Curvature(Metric):
             acts.append(variable_config['acts'])
         return acts
     
-    def _evaluate_single(self, model_name, epoch, layer_name, variable, acts):
+    def _evaluate_single(self, model_name, epoch, layer_name, variable, acts, **kwargs):
         result = {}
         
         acts_config = utils.load_config(ACTS_CONFIGS_PATH)[acts['name']][f"{acts['version']:02d}"]
         X = ac.utils.load_data(model_name, epoch, acts['name'], acts['version'], layer_name=layer_name) # (n_target_names, n_frames, n_pcs)
         X = X[acts_config['target_names'].index(variable)] # (n_frames, n_pcs)
         
-        scores = me.core.compute_curvature(X)
+        scores = me.core.compute_curvature(X, **kwargs)
         result[f'{variable}-detailed'] = scores
         result[variable] = np.mean(scores)
             

@@ -1,0 +1,155 @@
+{
+    "class": "Curvature",
+    "kwargs": {
+        "variable_configs": {
+            "x_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "y_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "z_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "y_focus_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "z_focus_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_cam_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "yz_cam_pan": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_0": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_1": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_2": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_3": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_4": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_5": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_6": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_focus_pan_7": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "x_camel_rotate": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            },
+            "y_camel_rotate": {
+                "acts": {
+                    "name": "mkturk_test",
+                    "version": 0
+                },
+                "n_frames": 3
+            }
+        },
+        "averages": {
+            "x_cam_rot": [
+                "x_focus_pan",
+                "x_focus_pan_0",
+                "x_focus_pan_1",
+                "x_focus_pan_2",
+                "x_focus_pan_3",
+                "x_focus_pan_4",
+                "x_focus_pan_5",
+                "x_focus_pan_6",
+                "x_focus_pan_7"
+            ],
+            "y_cam_rot": [
+                "y_focus_pan", 
+                "yz_cam_pan"
+            ],
+            "x_cam_trans": ["x_pan"],
+            "y_cam_trans": ["y_pan"],
+            "z_cam_trans": ["z_pan"],
+            "x_obj_rot": ["x_camel_rotate"],
+            "y_obj_rot": ["y_camel_rotate"]
+        }
+    }
+}

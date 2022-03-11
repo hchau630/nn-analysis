@@ -45,5 +45,13 @@
     "barlow_PF": {
         "arch": "resnet50",
         "path": "checkpoints/barlowtwins/factorize_avgpool_equivariant_all_bn_2_v1"
+    },
+    "barlow_control_projector": {
+        "arch": "barlowtwins",
+        "path": "checkpoints/barlowtwins/original_v2_projector"
+    },
+    "barlow_P_projector": {
+        "arch": "equivariant_all_bn",
+        "path": "checkpoints/barlowtwins/equivariant_all_bn_v2_projector"
     }
 }

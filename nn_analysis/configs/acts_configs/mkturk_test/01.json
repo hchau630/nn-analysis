@@ -1,0 +1,34 @@
+{
+    "dataset_configs": {
+        "mkturk_test": {
+            "base_dataset_name": "mkturk_test",
+            "transform_names": [],
+            "subset_indices": null,
+            "seed": 0
+        }
+    },
+    "kwargs": {
+        "n_pcs": null,
+        "save_loc": "tmp_shared_path"
+    },
+    "target_names": [
+        "x_pan",
+        "y_pan",
+        "z_pan",
+        "x_focus_pan",
+        "y_focus_pan",
+        "z_focus_pan",
+        "x_cam_pan",
+        "yz_cam_pan",
+        "x_focus_pan_0",
+        "x_focus_pan_1",
+        "x_focus_pan_2",
+        "x_focus_pan_3",
+        "x_focus_pan_4",
+        "x_focus_pan_5",
+        "x_focus_pan_6",
+        "x_focus_pan_7",
+        "x_camel_rotate",
+        "y_camel_rotate"
+    ]
+}

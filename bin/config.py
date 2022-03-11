@@ -11,6 +11,7 @@
             ["rdm", 0],
             ["sparsity", 0],
             ["curve", 0],
+            ["curve", 1],
             ["trajectory", 0],
         ],
     },
@@ -22,6 +23,7 @@
             "moco_CDF",
             "barlow_control",
             "barlow_CD",
+            "barlow_CF",
             "barlow_CDF",
             "barlow_P",
             "barlow_PF",
@@ -37,7 +39,48 @@
             ["rdm", 0],
             ["sparsity", 0],
             ["curve", 0],
+            ["curve", 1],
             ["trajectory", 0],
+        ]
+    },
+    {
+        "model_names": [
+            "barlow_P",
+            "barlow_P_projector",
+        ],
+        "epochs": [82,83], # epoch 82
+        "layers": [None], # All layers
+        "metrics": [
+            # ["decode", 0],
+            # ["dimensionality", 0],
+            # ["fact", 0],
+            # ["generalize", 0],
+            # ["neural_fits", 0],
+            # ["rdm", 0],
+            # ["sparsity", 0],
+            ["curve", 0],
+            ["curve", 1],
+            # ["trajectory", 0],
+        ]
+    },
+    {
+        "model_names": [
+            "barlow_control",
+            "barlow_control_projector",
+        ],
+        "epochs": [54,55], # epoch 82
+        "layers": [None], # All layers
+        "metrics": [
+            # ["decode", 0],
+            # ["dimensionality", 0],
+            # ["fact", 0],
+            # ["generalize", 0],
+            # ["neural_fits", 0],
+            # ["rdm", 0],
+            # ["sparsity", 0],
+            ["curve", 0],
+            ["curve", 1],
+            # ["trajectory", 0],
         ]
     },
     # {
@@ -48,6 +91,7 @@
     #         "moco_CDF",
     #         "barlow_control",
     #         "barlow_CD",
+    #         "barlow_CF",
     #         "barlow_CDF",
     #         "barlow_P",
     #         "barlow_PF",

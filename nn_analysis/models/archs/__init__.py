@@ -4,6 +4,7 @@ from .big_resnets_infomin import *  # IMPORTANT: NETWORKS IMPORTED FROM THIS LIN
 from .bw_resnets import *
 from .simclr_normalization import add_simclr_normalization as _add_simclr_normalization
 from .identity import *
+from .barlowtwins import *
 
 def resnet50_simclr(*args, **kwargs):
     return _add_simclr_normalization(resnet50(*args, **kwargs))

@@ -245,10 +245,10 @@ def get_pcs(X, n_pcs, **kwargs):
 
 ### config utils ###
 
-def get_layer_name(model_name, layer):
+def get_layer_names(model_name, layers):
     arch_configs = load_config(ARCH_CONFIGS_PATH)
     model_configs = load_config(MODEL_CONFIGS_PATH)
-    return arch_configs[model_configs[model_name]['arch']]['layer_names'][layer]
+    return arch_configs[model_configs[model_name]['arch']]['layer_names'][layers]
 
 def get_acts_config(acts_name, version):
     acts_configs = load_config(ACTS_CONFIGS_PATH)

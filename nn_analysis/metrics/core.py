@@ -336,16 +336,26 @@ def compute_rdm_neural_fits(model_rdm, neural_rdms, n_splits=3, metric='spearman
         scores[split] = score_model_data / score_data_data**0.5
     return np.mean(scores)
 
-def compute_curvature(X):
+def compute_curvature(X, n_frames=-1):
     """
-    Computes the angle between the displacement vectors at successive frames, normalized
-    between 0 and 1.
-    Input:
-    X - (n_frames, n_features)
+    Computes curvature of X, the angle between the displacement vectors 
+    at successive frames, normalized between 0 and 1.
     
+    Paramters:
+      X: a np.ndarray with shape (num_frames, n_neurons)
+      n_frames: number of frames we want from X. If n_frames=-1, all the frames are used.
+                Otherwise, the frames are taken to be equally spaced apart.
+
     Returns:
-    scores - (n_frames - 2)
+    scores - (num_frames - 2,) if n_frames=-1, otherwise (n_frames - 2,)
     """
+    if n_frames == -1:
+        assert X.shape[0] >= 3
+    else:
+        assert n_frames >= 3 and n_frames <= X.shape[0] and isinstance(n_frames, int)
+        delta_frames = (X.shape[0]-1) // (n_frames-1)
+        X = X[::delta_frames][:n_frames]
+    
     vecs = X[1:] - X[:-1] # displacement vectors
     vecs = vecs/np.linalg.norm(vecs, axis=-1, keepdims=True) # normalize the displacement vectors
     dots = np.einsum('ni,ni->n',vecs[1:],vecs[:-1]) # dot product between successive normalized displacement vectors
